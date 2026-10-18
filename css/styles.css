@@ -11094,11 +11094,23 @@ section#contact .btn-social:active {
 }
 .timeline .timeline-body > p + ul {
   margin-top: 0.75rem;
-  padding-left: 1.1rem;
+  padding-left: 0;
+  list-style: none;
 }
 .timeline .timeline-role {
   margin-bottom: 0.5rem;
   font-weight: 700;
+}
+.timeline .timeline-blog-link {
+  display: block;
+  margin-top: 0.15rem;
+  color: #2d9e64;
+  font-weight: 500;
+}
+.timeline .timeline-blog-link svg {
+  margin-left: 0.15rem;
+  font-size: 0.7em;
+  vertical-align: baseline;
 }
 .timeline .timeline-body .skill-chips {
   justify-content: flex-start;
@@ -11111,5 +11123,5 @@ section#contact .btn-social:active {
   font-size: 0.75rem;
 }
 .timeline .timeline-body > ul > li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
