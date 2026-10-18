@@ -10767,11 +10767,11 @@ header.masthead .masthead-heading {
   }
 }
 #about .info-text {
-  max-width: 750px;
+  max-width: 770px;
   margin-left: auto;
   margin-right: auto;
 }
-#about .technlologies {
+#about .technologies {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
@@ -10790,20 +10790,26 @@ header.masthead .masthead-heading {
     "Noto Color Emoji";
   margin: 4rem 0 2rem 0;
 }
-#about .code-font {
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.skill-chips li {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid rgba(82, 202, 141, 0.35);
+  border-radius: 999px;
+  background-color: #e6f7ee;
+  color: #24704a;
   font-family:
-    "Roboto Mono",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
+    "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
 }
 #about .photo {
   margin-bottom: 3rem;
@@ -10849,13 +10855,19 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
 }
+#portfolio .portfolio-item .portfolio-link img {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  object-position: top;
+}
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1rem;
   text-align: center;
   background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-family:
     "Roboto",
     -apple-system,
@@ -10870,25 +10882,14 @@ header.masthead .masthead-heading {
     "Segoe UI Symbol",
     "Noto Color Emoji";
   font-weight: 700;
-  text-align: right;
+  text-align: center;
   margin-bottom: 0;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-size: 0.75rem;
-  font-family:
-    "Roboto Mono",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
-  text-align: right;
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-text {
+  max-width: 440px;
+  margin: 0.5rem auto 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .timeline {
@@ -10995,7 +10996,7 @@ header.masthead .masthead-heading {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
-    text-align: right;
+    text-align: left;
   }
   .timeline > li .timeline-image {
     left: 50%;
@@ -11090,4 +11091,25 @@ section#contact .btn-social:active {
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji";
+}
+.timeline .timeline-body > p + ul {
+  margin-top: 0.75rem;
+  padding-left: 1.1rem;
+}
+.timeline .timeline-role {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.timeline .timeline-body .skill-chips {
+  justify-content: flex-start;
+  max-width: none;
+  margin-top: 1rem;
+  padding-left: 0;
+}
+.timeline .timeline-body .skill-chips li {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+.timeline .timeline-body > ul > li {
+  margin-bottom: 0.4rem;
 }

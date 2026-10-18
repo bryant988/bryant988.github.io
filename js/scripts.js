@@ -52,7 +52,7 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  $(".portfolio-item").each(function () {
+  $(".portfolio-item:not(.portfolio-external)").each(function () {
     // the containers for all your galleries
     $(this).magnificPopup({
       delegate: "a", // the selector for gallery item

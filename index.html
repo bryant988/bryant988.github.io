@@ -8,9 +8,36 @@
     />
     <meta name="description" content="Portfolio website for Bryant Gallardo" />
     <meta name="author" content="Bryant Gallardo" />
-    <meta property="og:title" content="Bryant Gallardo | Software Engineer" />
+    <meta name="theme-color" content="#212529" />
+    <link rel="canonical" href="https://bryant988.github.io/" />
+    <!-- Open Graph / social previews-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bryant988.github.io/" />
+    <meta property="og:site_name" content="Bryant Gallardo" />
+    <meta
+      property="og:title"
+      content="Bryant Gallardo | Senior Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio website for Bryant Gallardo"
+    />
     <meta
       property="og:image"
+      content="https://bryant988.github.io/assets/img/experience/avatar.png"
+    />
+    <meta property="og:image:alt" content="Bryant Gallardo avatar" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Bryant Gallardo | Senior Software Engineer"
+    />
+    <meta
+      name="twitter:description"
+      content="Portfolio website for Bryant Gallardo"
+    />
+    <meta
+      name="twitter:image"
       content="https://bryant988.github.io/assets/img/experience/avatar.png"
     />
     <title>Bryant Gallardo</title>
@@ -72,13 +99,13 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio"
-                >Portfolio</a
+              <a class="nav-link js-scroll-trigger" href="#experience"
+                >Experience</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#experience"
-                >Experience</a
+              <a class="nav-link js-scroll-trigger" href="#portfolio"
+                >Portfolio</a
               >
             </li>
             <li class="nav-item">
@@ -93,12 +120,9 @@
       <div class="container">
         <div class="masthead-heading">Hey, I'm Bryant Gallardo.</div>
         <div id="typed-strings">
-          <p>Software Engineer</p>
-          <p>Software Developer</p>
-          <p>Front End Engineer</p>
-          <p>Front End Developer</p>
-          <p>Full Stack Engineer</p>
-          <p>Web Developer</p>
+          <p>Senior Software Engineer</p>
+          <p>Senior Frontend Engineer</p>
+          <p>Senior Full Stack Engineer</p>
         </div>
         <div class="masthead-subheading-wrap">
           <span class="masthead-subheading"></span>
@@ -116,247 +140,117 @@
         </div>
         <a
           class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-          href="#about"
+          href="#portfolio"
           >View my work</a
         >
       </div>
     </header>
     <!-- About-->
-    <section class="page-section" id="about">
+    <section class="page-section bg-light" id="about">
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">About</h2>
           <h3 class="section-subheading text-muted">
-            Senior Frontend Software Engineer based in Tampa, FL
+            A little technical background
           </h3>
-          <img class="photo mx-auto" src="assets/img/about/photo.png" alt="" />
+          <img
+            class="photo mx-auto"
+            src="assets/img/about/photo.png"
+            alt="Photo of Bryant Gallardo"
+          />
           <p class="info-text">
-            I enjoy transforming ideas into reality through software. Being on
-            the forefront of user experience is rewarding and provides an
-            opportunity for artistic expression in software development. I have
-            6+ years of experience specializing in building complex web
-            applications and internal frameworks using React, Redux, JavaScript
-            (ES6+), HTML5, and CSS3.
+            I'm a software engineer with 10+ years of experience architecting
+            and shipping large-scale web platforms, end user products, and
+            internal tooling. I specialize in taking products from idea to
+            production, and I care as much about getting them into users' hands
+            quickly as I do about getting the architecture right.
+            <br />
+            <strong> Building and shipping is what I do best. </strong>
           </p>
           <p class="info-text">
-            With a focus in front end development, my goal is to always build
-            products that provide pixel perfect, responsive, and performant
-            experiences.
+            During my tenure at Coinbase, I was a tech lead on Growth, where I
+            drove greenfield builds of the platforms every marketing and product
+            team uses to reach customers. Today they power over a billion
+            messages a week. I designed the upsell framework that turned weeks
+            of engineering into a same-day launch, and led the effort to scale
+            the marketing server to 10x traffic through the 2021 bull run and a
+            Super Bowl ad.
           </p>
-          <h3 class="technlologies text-muted">
-            Here are a few technologies I've been working with recently:
+          <p class="info-text">
+            Before that, at ConnectWise, I was the architecture lead on
+            migrating the flagship product to React, owned the company's design
+            system, and built the Customer Portal from the ground up. Outside of
+            work, I co-founded Automelodia, an AI music generation app we took
+            from zero to a publicly launched, paid product.
+          </p>
+          <p class="info-text">
+            I work across the stack, with deep experience in React and
+            TypeScript on the frontend, Python on the backend, and AWS cloud
+            infrastructure. I leverage AI-assisted development with Claude Code
+            to move fast without cutting corners.
+          </p>
+          <h3 class="technologies text-muted">
+            Here are a few technologies I have experience in:
           </h3>
         </div>
         <div class="row text-center justify-content-center">
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-5 mb-lg-0">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="my-3">Frontend</h4>
-            <p class="text-muted code-font">
-              React (Context/Hooks)
-              <br />
-              Redux (Redux-Saga)
-              <br />
-              JavaScript (ES6+)
-              <br />
-              CSS3 (SCSS/CSS Modules)
-              <br />
-              HTML5
-              <br />
-              Node.js
-            </p>
+            <ul class="skill-chips">
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>React Native</li>
+              <li>Next.js (SSR)</li>
+              <li>Tailwind</li>
+              <li>CSS-in-JS</li>
+              <li>SCSS</li>
+              <li>Webpack</li>
+              <li>Vite</li>
+            </ul>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-5 mb-lg-0">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-server fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="my-3">Backend</h4>
-            <p class="text-muted code-font">
-              REST APIs
-              <br />
-              .NET Core
-              <br />
-              Python
-              <br />
-              MySQL
-              <br />
-              MongoDB
-              <br />
-              AWS (S3/CloudFront)
-            </p>
+            <ul class="skill-chips">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>Flask</li>
+              <li>Node.js</li>
+              <li>Java</li>
+              <li>C# / .NET Core</li>
+              <li>REST</li>
+              <li>GraphQL</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+            </ul>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light-color" id="portfolio">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">
-            Here are a few projects I've worked on recently
-          </h3>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                href="assets/img/portfolio/customerportal/landingpage.jpg"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-search-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/customerportal/ticket.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="assets/img/portfolio/customerportal/home.jpg"></a>
-              <a href="assets/img/portfolio/customerportal/homemobile.jpg"></a>
-              <a href="assets/img/portfolio/customerportal/ticket.jpg"></a>
-              <a
-                href="assets/img/portfolio/customerportal/ticketmobile.jpg"
-              ></a>
-              <a
-                href="assets/img/portfolio/customerportal/ticketcreate.jpg"
-              ></a>
-              <a
-                href="assets/img/portfolio/customerportal/ticketcreatemobile.jpg"
-              ></a>
-              <a href="assets/img/portfolio/customerportal/ticketlist.jpg"></a>
-              <a
-                href="assets/img/portfolio/customerportal/ticketlistmobile.jpg"
-              ></a>
-              <a href="assets/img/portfolio/customerportal/project.jpg"></a>
-              <a
-                href="assets/img/portfolio/customerportal/projectmobile.jpg"
-              ></a>
-              <a href="assets/img/portfolio/customerportal/users.jpg"></a>
-              <a
-                class="mfp-iframe"
-                href="assets/img/portfolio/customerportal/demo.mp4"
-              ></a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Customer Portal</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  React | Redux | SCSS | Mobile Design
-                </div>
-                <div class="portfolio-caption-subheading text-muted">
-                  .NET Core | MySQL | AWS
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                href="assets/img/portfolio/customerportaladmin/domain.jpg"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-search-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/customerportaladmin/dnd.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="assets/img/portfolio/customerportaladmin/style.jpg"></a>
-              <a
-                href="assets/img/portfolio/customerportaladmin/servicecatalog.jpg"
-              ></a>
-              <a href="assets/img/portfolio/customerportaladmin/dnd.jpg"></a>
-              <a
-                href="assets/img/portfolio/customerportaladmin/formbuilder.jpg"
-              ></a>
-              <a href="assets/img/portfolio/customerportaladmin/users.jpg"></a>
-              <a href="assets/img/portfolio/customerportaladmin/roles.jpg"></a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">
-                  Customer Portal Admin
-                </div>
-                <div class="portfolio-caption-subheading text-muted">
-                  React | Redux | SCSS | Drag &amp; Drop
-                </div>
-                <div class="portfolio-caption-subheading text-muted">
-                  .NET Core | MySQL | AWS
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                href="assets/img/portfolio/cloudforest/servicelist.jpg"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-search-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/cloudforest/servicelist.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="assets/img/portfolio/cloudforest/custommenu.jpg"></a>
-              <a href="assets/img/portfolio/cloudforest/membersroles.jpg"></a>
-              <a href="assets/img/portfolio/cloudforest/servicehome.jpg"></a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">CloudForest</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  React (Hooks/Context) | SCSS | Drag &amp; Drop
-                </div>
-                <div class="portfolio-caption-subheading text-muted">
-                  .NET Core | Python | MySQL | AWS
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-            <div class="portfolio-item">
-              <a
-                class="portfolio-link"
-                href="assets/img/portfolio/connectwise/home.jpg"
-              >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fas fa-search-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/connectwise/serviceticket.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="assets/img/portfolio/connectwise/servicelist.jpg"></a>
-              <a href="assets/img/portfolio/connectwise/serviceticket.jpg"></a>
-              <a href="assets/img/portfolio/connectwise/project.jpg"></a>
-              <a href="assets/img/portfolio/connectwise/companies.jpg"></a>
-              <a href="assets/img/portfolio/connectwise/opportunity.jpg"></a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">ConnectWise Manage</div>
-                <div class="portfolio-caption-subheading text-muted">
-                  React | TypeScript | Redux | Immutable.js
-                </div>
-                <div class="portfolio-caption-subheading text-muted">
-                  C# | ASP.NET | Microsoft SQL Server | AWS
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-cloud fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Cloud &amp; Infrastructure</h4>
+            <ul class="skill-chips">
+              <li>AWS</li>
+              <li>S3</li>
+              <li>Lambda</li>
+              <li>CloudFront</li>
+              <li>CloudWatch</li>
+              <li>ECS / EC2</li>
+              <li>SQS / SNS</li>
+              <li>RDS</li>
+              <li>DynamoDB</li>
+              <li>CI/CD</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -376,21 +270,62 @@
               <img
                 class="timeline-img"
                 src="assets/img/experience/coinbase.jpg"
-                alt=""
+                alt="Coinbase logo"
               />
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>2020-Present</h4>
+                <h4>2020 – 2026</h4>
                 <h4 class="subheading">Coinbase</h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Frontend Senior Software Engineer.</p>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <p class="timeline-role">
+                  Senior Software Engineer, Growth Foundations
+                </p>
+                <p class="text-muted">
+                  Frontend Tech lead for Growth platforms: lifecycle messaging,
+                  upsells, and marketing surfaces.
+                </p>
+                <ul class="text-muted">
+                  <li>
+                    <strong>Growth Admin Platform</strong>: 150+ daily users,
+                    1B+ messages/week across email, push, SMS, and in-app;
+                    retired a third-party CRM (~$2M/yr saved).
+                  </li>
+                  <li>
+                    <strong>Upsell Platform</strong>: server-driven UI framework
+                    powering every Coinbase upsell, with 99% less implementation
+                    effort.
+                  </li>
+                  <li>
+                    <strong>Journey Builder</strong>: drag-and-drop workflow
+                    editor powering 100+ production journeys and a
+                    multi-million-dollar revenue uplift.
+                  </li>
+                  <li>
+                    <strong>Marketing infrastructure</strong>: scaled the
+                    coinbase.com marketing site 10x; built newsletter
+                    infrastructure reaching 20M+ customers.
+                  </li>
+                  <li>
+                    <strong>DevEx</strong>: modular monorepo and CI/CD rebuild,
+                    with ~50% faster builds and ~63% faster deploys.
+                  </li>
+                </ul>
+                <ul class="skill-chips">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>React Native</li>
+                  <li>Next.js</li>
+                  <li>CSS-in-JS</li>
+                  <li>Webpack / Vite</li>
+                  <li>REST / GraphQL</li>
+                  <li>MongoDB</li>
+                  <li>AWS</li>
+                  <li>Figma</li>
+                  <li>Claude Code</li>
+                  <li>Cursor</li>
+                </ul>
               </div>
             </div>
           </li>
@@ -398,23 +333,52 @@
             <div class="timeline-image">
               <img
                 class="timeline-img"
-                src="assets/img/experience/connectwise.png"
-                alt=""
+                src="assets/img/experience/automelodia.svg"
+                alt="Automelodia logo"
               />
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>2014-2020</h4>
-                <h4 class="subheading">ConnectWise</h4>
+                <h4>2023 – 2024</h4>
+                <h4 class="subheading">Automelodia</h4>
               </div>
               <div class="timeline-body">
+                <p class="timeline-role">Technical Co-Founder</p>
                 <p class="text-muted">
-                  Lead frontend software engineer responsible for web
-                  application architecture and feature enhancements. Developer
-                  and maintainer of core frontend components using modern
-                  Javascript (ES6/React/Redux). Mentor for development team on
-                  frontend best practices.
+                  Co-founded an AI music generation platform and took it from
+                  zero to a public launch.
                 </p>
+                <ul class="text-muted">
+                  <li>
+                    <strong>Backend</strong>: sole backend engineer on a Python
+                    REST API and PostgreSQL; contributed across the
+                    React/TypeScript frontend.
+                  </li>
+                  <li>
+                    <strong>Infrastructure</strong>: architected AWS
+                    infrastructure (SQS, EC2 GPU instances, S3) to self-host a
+                    music generation model with async inference.
+                  </li>
+                  <li>
+                    <strong>Launch</strong>: shipped a production app with
+                    Stripe subscription billing and OpenAI-powered prompt
+                    enrichment.
+                  </li>
+                </ul>
+                <ul class="skill-chips">
+                  <li>Python</li>
+                  <li>FastAPI</li>
+                  <li>PostgreSQL</li>
+                  <li>REST</li>
+                  <li>AWS</li>
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>Tailwind</li>
+                  <li>Vite</li>
+                  <li>OpenAI API</li>
+                  <li>Claude Code</li>
+                  <li>Stripe</li>
+                </ul>
               </div>
             </div>
           </li>
@@ -422,24 +386,48 @@
             <div class="timeline-image">
               <img
                 class="timeline-img"
-                src="assets/img/experience/cae.png"
-                alt=""
+                src="assets/img/experience/connectwise.png"
+                alt="ConnectWise logo"
               />
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>2011-2014</h4>
-                <h4 class="subheading">CAE</h4>
+                <h4>2014 – 2020</h4>
+                <h4 class="subheading">ConnectWise</h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">
-                  Member of the project team responsible for implementing the
-                  WPF Instructor Operating Station used by training instructors
-                  to control simulation. Implementation of user interface
-                  application adopted the MVVM pattern and included custom user
-                  controls and direct communication interface to trainer
-                  datapool.
+                <p class="timeline-role">
+                  Senior Software Engineer, App Architecture
                 </p>
+                <ul class="text-muted">
+                  <li>
+                    <strong>Customer Portal</strong>: built from the ground up
+                    for 100K+ end users on React/Redux, .NET Core, and
+                    multi-region AWS.
+                  </li>
+                  <li>
+                    <strong>React migration</strong>: architecture lead for
+                    moving a 100+ page legacy GWT app to React, directing a team
+                    of contractors.
+                  </li>
+                  <li>
+                    <strong>Design system</strong>: owned the company-wide
+                    component library and style guide.
+                  </li>
+                </ul>
+                <ul class="skill-chips">
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>TypeScript</li>
+                  <li>SCSS</li>
+                  <li>Webpack</li>
+                  <li>C# / .NET Core</li>
+                  <li>Flask</li>
+                  <li>Java</li>
+                  <li>AWS</li>
+                  <li>REST</li>
+                  <li>MySQL</li>
+                </ul>
               </div>
             </div>
           </li>
@@ -447,8 +435,36 @@
             <div class="timeline-image">
               <img
                 class="timeline-img"
+                src="assets/img/experience/cae.png"
+                alt="CAE logo"
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2011 – 2014</h4>
+                <h4 class="subheading">CAE USA</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="timeline-role">Software Engineer II</p>
+                <p class="text-muted">
+                  Developed the Instructor Operating Station used by instructors
+                  to control military flight simulation training systems.
+                </p>
+                <ul class="skill-chips">
+                  <li>C#</li>
+                  <li>WPF</li>
+                  <li>MVVM</li>
+                  <li>ASP.NET</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img
+                class="timeline-img"
                 src="assets/img/experience/usf.png"
-                alt=""
+                alt="University of South Florida logo"
               />
             </div>
             <div class="timeline-panel">
@@ -457,17 +473,12 @@
                 <h4 class="subheading">University of South Florida</h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">
-                  Bachelor of Science in Computer Engineering, Dual Major in
-                  Computer Science
-                </p>
-                <br />
-                <br />
-                <br />
+                <p class="timeline-role">B.S. Computer Engineering</p>
+                <p class="text-muted">Dual major in Computer Science.</p>
               </div>
             </div>
           </li>
-          <li class="timeline-inverted">
+          <li>
             <div class="timeline-image">
               <img
                 class="timeline-img"
@@ -479,6 +490,452 @@
         </ul>
       </div>
     </section>
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light-color" id="portfolio">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Portfolio</h2>
+          <h3 class="section-subheading text-muted">
+            Here are a few projects I've worked on
+          </h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                aria-label="View Growth Admin Platform screenshots and demo videos"
+                href="assets/img/portfolio/growthadminplatform/campaign.png"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/growthadminplatform/campaign.png"
+                  alt="Growth Admin Platform campaign detail page with push notification preview"
+                />
+              </a>
+              <a
+                class="mfp-iframe"
+                href="assets/img/portfolio/growthadminplatform/createdemo.mp4"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                class="mfp-iframe"
+                href="assets/img/portfolio/growthadminplatform/launchdemo.mp4"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">
+                  Growth Admin Platform
+                </div>
+                <p class="portfolio-caption-text text-muted">
+                  Coinbase's marketing platform for creating, targeting,
+                  approving, and launching campaigns across all communication
+                  channels.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                aria-label="View Journey Builder screenshots and demo videos"
+                href="assets/img/portfolio/journeybuilder/journey.png"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/journeybuilder/journey.png"
+                  alt="Journey Builder canvas with a multi-step customer journey"
+                />
+              </a>
+              <a
+                href="assets/img/portfolio/journeybuilder/journeycriteria.png"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                class="mfp-iframe"
+                href="assets/img/portfolio/journeybuilder/demo.mp4"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Journey Builder</div>
+                <p class="portfolio-caption-text text-muted">
+                  A visual, drag-and-drop editor for building multi-step
+                  customer journeys with branching criteria, experiments, and
+                  delays.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item portfolio-external">
+              <a
+                class="portfolio-link"
+                href="https://www.coinbase.com/explore"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit coinbase.com (opens in a new tab)"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-external-link-alt fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/coinbase/explore.png"
+                  alt="Coinbase Explore Crypto page with market prices"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Coinbase.com</div>
+                <p class="portfolio-caption-text text-muted">
+                  The public site for Coinbase, where millions of visitors
+                  explore crypto prices, products, and learning content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item portfolio-external">
+              <a
+                class="portfolio-link"
+                href="https://www.coinbase.com/bytes"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Coinbase Bytes (opens in a new tab)"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-external-link-alt fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/coinbase/bytes.png"
+                  alt="Coinbase Bytes newsletter archive page"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Coinbase Bytes</div>
+                <p class="portfolio-caption-text text-muted">
+                  Coinbase's weekly crypto newsletter and its archive site, a
+                  fully dynamic, CMS-driven home for every past issue.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                aria-label="View Automelodia screenshots and demo video"
+                href="assets/img/portfolio/automelodia/home.png"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/automelodia/home-thumb.jpg"
+                  alt="Automelodia home page with AI-generated tracks"
+                />
+              </a>
+              <a
+                href="assets/img/portfolio/automelodia/generate.png"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/automelodia/explore.png"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/automelodia/studio.png"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/automelodia/playlist.png"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                class="mfp-iframe"
+                href="https://www.youtube.com/watch?v=h0W7kkX6t-g"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Automelodia</div>
+                <p class="portfolio-caption-text text-muted">
+                  An AI music generation app for creating, exploring, and
+                  sharing original tracks from a simple text prompt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                aria-label="View Customer Portal screenshots"
+                href="assets/img/portfolio/customerportal/landingpage.jpg"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/customerportal/ticket.jpg"
+                  alt="Customer Portal service ticket screen"
+                />
+              </a>
+              <a
+                href="assets/img/portfolio/customerportal/home.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/homemobile.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/ticket.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/ticketmobile.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/ticketcreate.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/ticketcreatemobile.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/ticketlist.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/ticketlistmobile.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/project.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/projectmobile.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportal/users.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                class="mfp-iframe"
+                href="assets/img/portfolio/customerportal/demo.mp4"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Customer Portal</div>
+                <p class="portfolio-caption-text text-muted">
+                  A mobile-friendly portal where 100K+ end users submit and
+                  track support tickets and projects.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                aria-label="View Customer Portal Admin screenshots"
+                href="assets/img/portfolio/customerportaladmin/domain.jpg"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/customerportaladmin/dnd.jpg"
+                  alt="Customer Portal Admin drag-and-drop page builder"
+                />
+              </a>
+              <a
+                href="assets/img/portfolio/customerportaladmin/style.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportaladmin/servicecatalog.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportaladmin/dnd.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportaladmin/formbuilder.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportaladmin/users.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/customerportaladmin/roles.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">
+                  Customer Portal Admin
+                </div>
+                <p class="portfolio-caption-text text-muted">
+                  The admin console behind the portal: custom domains, branding,
+                  user roles, and a drag-and-drop form builder.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                aria-label="View CloudForest screenshots"
+                href="assets/img/portfolio/cloudforest/servicelist.jpg"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/cloudforest/servicelist.jpg"
+                  alt="CloudForest service catalog list"
+                />
+              </a>
+              <a
+                href="assets/img/portfolio/cloudforest/custommenu.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/cloudforest/membersroles.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/cloudforest/servicehome.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">CloudForest</div>
+                <p class="portfolio-caption-text text-muted">
+                  An internal developer portal and service catalog for browsing
+                  services, managing team roles, and customizing navigation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                aria-label="View ConnectWise Manage screenshots"
+                href="assets/img/portfolio/connectwise/home.jpg"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/connectwise/serviceticket.jpg"
+                  alt="ConnectWise Manage service ticket screen"
+                />
+              </a>
+              <a
+                href="assets/img/portfolio/connectwise/servicelist.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/connectwise/serviceticket.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/connectwise/project.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/connectwise/companies.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="assets/img/portfolio/connectwise/opportunity.jpg"
+                tabindex="-1"
+                aria-hidden="true"
+              ></a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">ConnectWise Manage</div>
+                <p class="portfolio-caption-text text-muted">
+                  The flagship business management platform for IT service
+                  providers, covering service desk, projects, and sales.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Contact-->
     <section class="page-section" id="contact">
       <div class="container">
@@ -488,25 +945,31 @@
           <a
             class="btn btn-dark btn-social mx-2"
             href="mailto:bgallardo88@gmail.com"
-            target="_blank"
+            aria-label="Email Bryant"
             ><i class="far fa-envelope icon"></i
           ></a>
           <a
             class="btn btn-dark btn-social mx-2"
             href="https://www.linkedin.com/in/bryant-gallardo"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile (opens in a new tab)"
             ><i class="fab fa-linkedin-in icon"></i
           ></a>
           <a
             class="btn btn-dark btn-social mx-2"
             href="https://github.com/bryant988"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub profile (opens in a new tab)"
             ><i class="fab fa-github icon"></i
           ></a>
           <a
             class="btn btn-dark btn-social mx-2"
             href="assets/Bryant_Gallardo.pdf"
             target="_blank"
+            rel="noopener"
+            aria-label="Resume PDF (opens in a new tab)"
             ><i class="far fa-file-alt icon"></i
           ></a>
         </div>
@@ -516,7 +979,9 @@
     <footer class="footer py-4 bg-light">
       <div class="container">
         <div class="row align-items-center justify-content-center">
-          <div class="col-lg-4 text-lg-left">© 2020 Bryant Gallardo</div>
+          <div class="col-lg-4 text-lg-left">
+            © <span id="year">2026</span> Bryant Gallardo
+          </div>
           <div class="col-lg-4 text-lg-right">bgallardo88@gmail.com</div>
         </div>
       </div>
