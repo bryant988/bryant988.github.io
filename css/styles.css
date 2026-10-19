@@ -11101,6 +11101,15 @@ section#contact .btn-social:active {
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
+.timeline .timeline-role-dates {
+  display: block;
+  color: #6c757d;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+.timeline .timeline-body > p.text-muted + .timeline-role {
+  margin-top: 1.25rem;
+}
 .timeline .timeline-blog-link {
   display: block;
   margin-top: 0.15rem;
